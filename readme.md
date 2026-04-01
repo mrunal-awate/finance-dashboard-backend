@@ -103,10 +103,10 @@ finance-dashboard-backend/
 | View all records      | ❌ | ❌ | ✅ |
 | Create records        | ❌ | ✅ | ✅ |
 | Update own records    | ❌ | ✅ | ✅ |
-| Delete own records | ❌ | ✅ | ✅ |
-| Access dashboard | ❌ | ✅ | ✅ |
-| Manage users | ❌ | ❌ | ✅ |
-| Toggle user status | ❌ | ❌ | ✅ |
+| Delete own records    | ❌ | ✅ | ✅ |
+| Access dashboard      | ❌ | ✅ | ✅ |
+| Manage users          | ❌ | ❌ | ✅ |
+| Toggle user status    | ❌ | ❌ | ✅ |
 
 ---
 
