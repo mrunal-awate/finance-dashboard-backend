@@ -197,8 +197,8 @@ NODE_ENV=
 ### Users
 | Method | Endpoint | Access | Description |
 |---|---|---|---|
-| GET | /api/users | Admin | Get all users with pagination |
-| GET | /api/users/:id | Admin, Analyst | Get a single user |
+| GET   | /api/users | Admin | Get all users with pagination |
+| GET   | /api/users/:id | Admin, Analyst | Get a single user |
 | PATCH | /api/users/:id | Admin | Update user details or role |
 | DELETE | /api/users/:id | Admin | Soft delete a user |
 | PATCH | /api/users/:id/toggle-status | Admin | Activate or deactivate user |
