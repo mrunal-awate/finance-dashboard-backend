@@ -90,7 +90,7 @@ Then click **Authorize** button and enter: \`Bearer <your_token>\`
             notes: { type: 'string', example: 'Updated notes' },
           },
         },
-        // Common response
+        // 
         SuccessResponse: {
           type: 'object',
           properties: {
