@@ -7,7 +7,7 @@ const errorHandler = require('./middleware/error.middleware');
 // Route imports
 const authRoutes = require('./routes/auth.routes');
 const userRoutes = require('./routes/user.routes');
-// const recordRoutes = require('./routes/record.routes');
+const recordRoutes = require('./routes/record.routes');
 // const dashboardRoutes = require('./routes/dashboard.routes');
 
 // Swagger
@@ -27,7 +27,7 @@ app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 // API routes
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
-// app.use('/api/records', recordRoutes);
+app.use('/api/records', recordRoutes);
 // app.use('/api/dashboard', dashboardRoutes);
 
 // Health check
